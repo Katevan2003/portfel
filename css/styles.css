@@ -1,0 +1,197 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  color: #1d1f2f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div,
+p,
+a {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 292px;
+  margin: 0 auto;
+}
+
+/* header */
+.avatar {
+  text-align: center;
+  padding-top: 38px;
+  padding-bottom: 18px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+.menu {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1d1f2f;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+  width: 290px;
+  height: 45px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(2, 46, 61, 0.25);
+  border-radius: 5px;
+  padding: 14px 0px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.menu:hover {
+  background: #1d1f2f;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 196.19%;
+  padding-top: 83px;
+}
+
+/* about */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numbers p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 196.19%;
+  width: 20px;
+}
+
+.numbers {
+  padding-top: 7px;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  width: 256px;
+  padding-bottom: 15px;
+}
+
+/* portfolio */
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 196.19%;
+}
+
+.cases {
+  text-align: center;
+  padding-top: 51px;
+}
+
+.case {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* consultation */
+.consultation h2 {
+  text-align: center;
+  line-height: 163.7%;
+  width: 287px;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+.input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.71);
+  width: 290px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+  margin-bottom: 37px;
+  padding-bottom: 8px;
+}
+
+.cta-form {
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1d1f2f;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+  width: 290px;
+  height: 45px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(2, 46, 61, 0.25);
+  border-radius: 5px;
+  padding: 14px 0px;
+  display: block;
+  margin-bottom: 18px;
+}
+.cta-form:hover {
+  background: #1d1f2f;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.consultation2 h2 {
+  padding-top: 21px;
+  padding-bottom: 16px;
+}
+
+/* contacts */
+.contacts h2,
+.contacts h3 {
+  text-align: center;
+}
+
+.icons {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+}
+
+.mail {
+  padding-left: 36px;
+  padding-right: 36px;
+}
